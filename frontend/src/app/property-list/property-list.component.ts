@@ -6,5 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./property-list.component.scss']
 })
 export class PropertyListComponent {
-
+  propertyList = [{
+    name: 'p1',
+    price: 123,
+    title: 'sale'
+  },
+  {
+    name: 'p1',
+    price: 123,
+    title: 'sale'
+  },
+  {
+    name: 'p1',
+    price: 123,
+    title: 'sale'
+  }
+  ]
 }

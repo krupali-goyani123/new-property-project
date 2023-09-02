@@ -1,0 +1,17 @@
+    .image-part {
+        overflow: hidden;
+        img {
+            &:hover {
+                transform: scale(1.2, 1.2);
+                transition: 500ms;
+                transition-timing-function: ease-out;
+            }
+        }
+
+        img {
+            transform: scale(1, 1);
+            transition: 500ms;
+            transition-timing-function: ease-out;
+        }
+
+    }
